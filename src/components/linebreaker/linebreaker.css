@@ -1,0 +1,26 @@
+.bigbreakcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap : 2em;
+  flex-wrap: wrap;
+  position: relative;
+  top: 18em;
+}
+.breakcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bigline {
+  width: 32em;
+  height: 0.18em;
+  background-color: black;
+  }
+
+.smallline {
+  width: 16em;
+  height: 0.18em;
+  background-color: black;
+}

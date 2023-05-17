@@ -1,0 +1,118 @@
+.cvcontainer {
+  margin-top: 23em;
+  margin-bottom: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap : 2em;
+}
+
+.cvheader {
+  font-family: 'Cantarell', sans-serif;
+
+  font-size: 2.3em;
+  text-align: center;
+  font-weight: 900;
+  width: 15em;
+}
+
+.compcategory {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.category {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  margin-top: -0.5em;
+}
+
+.categorycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap : 8em;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.reccontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.recblank {
+  display: inline-block;
+  width: 9.6em;
+  height: 1.2em;  
+  background: #D3D3D3;
+  border-radius: 15px;
+}
+
+.recfilled {
+  height: 1.2em;  
+  background: #B0AFEE;
+  border-radius: 15px;
+}
+
+.langcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap : 15em;
+  flex-wrap: wrap;
+  padding: 2em;
+  width: 100%;
+}
+
+.langcontainer > *  {
+  display: inline-block;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -4em;
+}
+
+
+.recname {
+  display: inline-block;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 1.2em;
+  font-weight: 900;
+  margin-right: 1em;
+}
+
+/*
+.unityrecb {
+  position: relative;
+  right: 25em;
+}
+*/
+
+.csharprecf {
+  width: 8.3em;
+}
+
+.golangrecf {
+  width: 7em;
+}
+
+.pythonrecf {
+  width: 6.5em;
+}

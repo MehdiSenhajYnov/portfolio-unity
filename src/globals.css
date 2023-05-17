@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400|Cantarell:400,700");
+@import url("https://px.animaapp.com/63d79dc49e54fe29b33ff5a1.63d79dc5cdeadf7e79df2a55.1U2LNqL.rcp.png");
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+
+  --font-size-m: 30px;
+
+  --font-family-inter: "Inter", Helvetica;
+}
+
+.inter-normal-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
